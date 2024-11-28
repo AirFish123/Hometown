@@ -1,0 +1,165 @@
+h1 {
+    color:black;
+    /* background-color: yellow; */
+    margin:0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    color:black;
+    margin:0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+h3 {
+    color:#1D3557;
+    margin:0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    color: #1D3557;
+    margin-top:10px;
+    font-weight: 700;
+}
+
+p {
+    color: #1D3557;
+    margin-top:10px; 
+    font-size:16px;
+    font-weight: 400;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    width: 720px;
+    text-align:center;
+    display:block;
+    margin: 0px auto;
+
+}
+
+.item {
+    width:200px;
+    margin: 15px;
+}
+
+#hero {
+    margin:0px;
+    padding:0px;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 343px;
+    width:720px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content:center;
+    /* background-color: rgba(231, 217, 199, 0.297); */
+}
+
+#centering-page {
+    margin-top:200px;
+}
+
+#hero-title {
+    display:block;
+    margin: 5px auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+#hero-subtitle {
+    width: 355px;
+    display:block;
+    margin: 5px auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #457B9D;
+    color: #F1FAEE;
+}
+
+#Activities {
+    margin:0px;
+    background-color: #F1FAEE;
+    height: 343px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.activity-image {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    transition: all 0.3s ease;
+}
+
+.activity-image:hover {
+    transform: scale(1.1)
+}
+
+
+#list-items {
+    display:flex;
+    justify-content: center;
+}
+
+#Guide {
+    margin:0px;
+    background-color: white;
+    height: 394px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#Guide-card {
+    width: 400px;
+    background-color: #A8DADC;
+    /* margin: 0px 100px 0px 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px 10px;
+    display:flex;
+    border-radius: 15px;
+    box-shadow: 0px 5px 0px #1D3557;
+    transition: all 0.3s ease;
+    
+}
+
+#Guide-card:hover {
+    background-color: red;
+    transform: scale(1.1)
+}
+
+#card-text {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 10px;
+}
+.per-image {
+    width:180px;
+    border-radius: 15px;
+}
+
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
